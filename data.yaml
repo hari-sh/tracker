@@ -1,0 +1,81 @@
+data:
+- 
+  id: 1
+  tag: copy flashes
+  open: False
+  team: wrf
+  cr: 1000000
+  traces: /opt/trace1
+  notes: /opt/note1
+  tat: /opt/tat1
+  threads:
+  - 
+    name: copy flashes 1 
+    crms:
+    - 111
+    - 112
+    logs:
+    - /opt/log111
+    - /opt/log112
+  -
+    name: copy flashes 2
+    crms:
+    - 121
+    - 122
+    logs:
+    - /opt/log121
+    - /opt/log122
+
+-
+  id: 2
+  tag: tracker
+  open: True
+  team: wrf
+  cr: 1000000
+  traces: /opt/trace2
+  notes: /opt/note2
+  tat: /opt/tat2
+  threads:
+  - 
+    name: tracker 1 
+    crms:
+    - 211
+    - 212
+    logs:
+    - /opt/log211
+    - /opt/log212
+  -
+    name: tracker 2
+    crms:
+    - 221
+    - 222
+    logs:
+    - /opt/log221
+    - /opt/log222
+
+-
+  id: 3
+  tag: parser
+  open: True
+  team: wrf
+  cr: 1000000
+  traces: /opt/trace3
+  notes: /opt/note3
+  tat: /opt/tat3
+  threads:
+  - 
+    name: parser 1 
+    crms:
+    - 311
+    - 312
+    logs:
+    - /opt/log311
+    - /opt/log312
+  -
+    name: parser 2
+    crms:
+    - 321
+    - 322
+    logs:
+    - /opt/log321
+    - /opt/log322
